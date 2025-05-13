@@ -23,7 +23,7 @@ This project provides a modular implementation of LTE modem handling for the Nor
 ├── prj.conf # Project configuration for Zephyr
 ├── CMakeLists.txt # Build system definition
 ├── README.md # You're here!
-
+```
 ---
 
 ## Requirements
