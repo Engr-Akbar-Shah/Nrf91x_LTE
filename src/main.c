@@ -10,15 +10,20 @@ int main(void)
 {
 	int err;
 
-	err = modem_configure();
-	if (err) {
+	err = modem_init();
+	if (err)
+	{
 		LOG_ERR("Failed to configure the modem");
 		return 0;
 	}
 
-	// k_sem_take(&lte_connected, K_FOREVER);
+	err = lte_init();
+	if (err)
+	{
+		LOG_ERR("Failed to intialize LTE");
+	}
 
 	LOG_INF("Connected to LTE network");
-	
+
 	return 0;
 }
