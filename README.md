@@ -28,8 +28,8 @@ This project provides a modular implementation of LTE modem handling for the Nor
 
 ## Requirements
 
-- nRF Connect SDK: v2.8.0 or later  
-- Board: Nordic nRF9160 DK or compatible  
+- nRF Connect SDK: v2.5.0 or later  
+- Board: Nordic nRF91 series  
 - Toolchain: Zephyr toolchain (`west`, `cmake`, `ninja`)  
 
 ---
