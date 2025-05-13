@@ -1,4 +1,4 @@
-# DEV_HUB_Nrf91_LTE
+# Nrf91_LTE
 
 ## Overview
 
