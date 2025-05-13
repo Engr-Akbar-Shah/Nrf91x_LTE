@@ -13,7 +13,7 @@ This project provides a modular implementation of LTE modem handling for the Nor
 
 ## Project Structure
 
-DEV_HUB_Nrf91_LTE/
+```DEV_HUB_Nrf91_LTE/
 ├── src/
 │ └── main.c # Application entry point
 ├── components/
@@ -23,7 +23,6 @@ DEV_HUB_Nrf91_LTE/
 ├── prj.conf # Project configuration for Zephyr
 ├── CMakeLists.txt # Build system definition
 ├── README.md # You're here!
-
 
 ---
 
@@ -67,6 +66,7 @@ target_sources(app PRIVATE
 target_include_directories(app
     PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/components/lte)
+```
 
 3. Configure `prj.conf`
 
@@ -76,3 +76,4 @@ CONFIG_MODEM_INFO=y
 CONFIG_NRF_MODEM_LIB_ON_FAULT_RESET_MODEM=y
 CONFIG_LTE_LINK_CONTROL=y
 CONFIG_LTE_NETWORK_MODE_LTE_M=y
+```
