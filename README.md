@@ -1,4 +1,4 @@
-# Nrf91_LTE
+# Nrf91x_LTE
 
 ## Overview
 
